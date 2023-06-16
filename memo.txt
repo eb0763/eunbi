@@ -5,9 +5,24 @@ github 가입 및 git bash 사용
 HW) 
 
 
-깃허브에 자기 이름 branch 만들어온다
+깃허브에 자기 이름 branch 만들어온다 
 
-만든브렌치에도 프로젝트 다 올라감
+만든브렌치에도 프로젝트 다 올라감 
 그리고 거기에 새로운 파일 만든다
 
 새로운 브렌치에서 만든 파일을 master에 merge
+
+
+
+
+- git brannch 생성 : git bash에서 git branch eunbi
+
+- branch 변경 : git checkout master/eunbi
+
+- git commit -m "memo"
+
+- git push origin eunbi 
+
+- git pull origin master/eunbi 
+
+
