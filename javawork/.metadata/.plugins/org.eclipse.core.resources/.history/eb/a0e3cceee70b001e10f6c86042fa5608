@@ -1,0 +1,18 @@
+package day0616;
+
+public class ParseArgs_04 {
+	public static void main(String[] args) {
+
+		
+
+		int n1=Integer.parseInt(args[1]);
+		int n2=Integer.parseInt(args[2]);
+		
+		System.out.println("*[상품정보]");
+		System.out.println("* 상품명: "+args[0]);
+		System.out.println("* 수량: "+args[1]);
+		System.out.println("* 단가: "+args[2]);
+		System.out.println("* 총 금액 : "+(n1*n2));
+
+	}
+}
